@@ -1,18 +1,20 @@
 # GITHUB_CONTRIBUTION_LOG
 
 
-# Contribution [#]: [Issue Title]
+# Contribution [#1]: [Enforce Kmod locking convention at runtime with lockdep_assert_held]
 
 **Contribution Number:** [1 / 2 / 3]  
 **Student:** Baidy Mbaye 
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Issue:** [(https://github.com/autowarefoundation/agnocast/issues/1327)]  
+**Status:** [Phase I Complete/ Phase II / Phase III / Phase IV] [In Progress / Complete]
 
 ---
-
+Phase I complete - Selected " Enforce Kmod locking convention at runtime with lockdep_assert_held": Want to add assertions to functions assigned by the issuer and verifying no warning fires on clean runs. Link: 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+[This issue had caught my attention since it was along the lines of system programming and code correctness. Coming from a background of interning at CVS where I worked on secruity systems regarding prescriptions on the app, I understand the complications and dangers that come from violation of contracts caused in production and lockdep is a runtime safety net for thie type of bug. Also worlking with a system that has zero cost in production but catches in real time violations in productino is something that I would be excited working in. 
+
+Most of my fundamentals learned in school have been in machine learning and AI, so this is an attempt at learning some lower level fundamentals in system designing. The system and scope is well defniend so even though I am not a kernel expert I can still learn and make a meaningful contribution.]
 
 ---
 
