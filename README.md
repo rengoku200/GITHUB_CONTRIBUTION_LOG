@@ -9,7 +9,6 @@
 **Status:** [Phase I Complete/ Phase II / Phase III / Phase IV] [In Progress / Complete]
 
 ---
-Phase I complete - Selected " Enforce Kmod locking convention at runtime with lockdep_assert_held": Want to add assertions to functions assigned by the issuer and verifying no warning fires on clean runs. Link: 
 ## Why I Chose This Issue
 
 [This issue had caught my attention since it was along the lines of system programming and code correctness. Coming from a background of interning at CVS where I worked on secruity systems regarding prescriptions on the app, I understand the complications and dangers that come from violation of contracts caused in production and lockdep is a runtime safety net for thie type of bug. Also worlking with a system that has zero cost in production but catches in real time violations in productino is something that I would be excited working in. 
